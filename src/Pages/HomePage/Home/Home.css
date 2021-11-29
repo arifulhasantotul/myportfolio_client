@@ -1,3 +1,14 @@
 .homepage {
-   background: var(--light_dark);
+   background: var(--glass_effect);
+   margin-top: 15.5rem;
+   /* border-bottom: var(--glass_border); */
+   border-left: var(--glass_border);
+   border-bottom-left-radius: 3rem;
+   border-bottom-right-radius: 3rem;
+   min-height: 55rem;
+}
+@media (max-width: 1024px) {
+   .homepage {
+      margin-top: 12rem;
+   }
 }
