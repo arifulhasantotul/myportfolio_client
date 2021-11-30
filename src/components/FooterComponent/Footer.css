@@ -1,0 +1,33 @@
+.footer {
+   background: var(--green_dark);
+   z-index: 1000;
+   border-top: var(--glass_border);
+   border-bottom: var(--glass_border);
+   border-left: var(--glass_border);
+   border-bottom-left-radius: 3rem;
+   border-bottom-right-radius: 3rem;
+   margin-bottom: 4rem;
+}
+
+.footer a {
+   font-size: 2rem;
+   margin: 1rem;
+   padding: 0.6rem 0.9rem 0.2rem 0.9rem;
+   border-radius: 50%;
+   border: none;
+   background: var(--light_green);
+   color: var(--gray);
+   transition: var(--change);
+   cursor: pointer;
+}
+.footer a:hover {
+   transform: rotate(360deg);
+   background: var(--green);
+   color: var(--green_dark);
+}
+.footer .copyright {
+   text-align: end;
+   font-size: 1.5rem;
+   color: var(--gray);
+   margin: 2rem 0;
+}

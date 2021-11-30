@@ -32,7 +32,7 @@ const Header = () => {
                   )}
                   <img src={logo} alt="" />
                   <Link to="/" className="logo">
-                     <span> Ariful </span>Hasan
+                     <span> ARIFUL </span>HASAN
                   </Link>
                </Grid>
                {/* nav start   */}
