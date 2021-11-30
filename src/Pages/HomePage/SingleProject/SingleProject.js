@@ -9,7 +9,7 @@ import Tilt from "react-parallax-tilt";
 const SingleProject = ({ project }) => {
    const { name, tag, category, dp_img } = project;
    return (
-      <Grid xs={2} sm={4} md={4} sx={{ px: 2 }}>
+      <Grid item xs={4} sm={4} md={4} sx={{ px: 2, pb: 2 }}>
          <Tilt>
             <Box sx={{ flexGrow: 1 }} className="card">
                <Grid container spacing={2}>

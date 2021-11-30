@@ -10,7 +10,7 @@ const HomeProjects = () => {
 
    useEffect(() => {
       setProjectLoading(true);
-      const url = `http://localhost:8080/projects?size=3`;
+      const url = `https://arcane-reaches-94984.herokuapp.com/projects?size=3`;
       fetch(url)
          .then((res) => res.json())
          .then((data) => setProjects(data))
@@ -29,7 +29,12 @@ const HomeProjects = () => {
                   projects.map((project) => (
                      <SingleProject key={project._id} project={project} />
                   ))}
-               {projectLoading && <CircularProgress />}
+               {projectLoading && (
+                  <CircularProgress
+                     color="warning"
+                     style={{ margin: "0 auto" }}
+                  />
+               )}
             </Grid>
          </Box>
       </>
