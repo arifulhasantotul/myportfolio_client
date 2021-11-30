@@ -39,6 +39,11 @@
    margin: 0 0.8rem;
    padding: 1.5rem 2rem;
 }
+.header .navbar a:hover,
+.header .navbar a.active,
+.header .navbar a:active {
+   color: var(--green);
+}
 
 @media (max-width: 1200px) {
    html {
@@ -67,7 +72,7 @@
       top: 100%;
       right: 0;
       left: 0;
-      background: var(--header_bg);
+      background: var(--green_dark);
       border-top: var(--top_border);
       padding: 1rem 2rem;
       clip-path: var(--hide_bar);
@@ -80,7 +85,7 @@
       border-radius: 0.5rem;
       padding: 1.5rem;
       margin: 1.5rem 0;
-      background: rgba(255, 255, 255, 0.5);
+      background: var(--light_green);
    }
 }
 

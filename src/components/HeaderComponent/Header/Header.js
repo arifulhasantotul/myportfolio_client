@@ -2,7 +2,7 @@ import { Container, Grid } from "@mui/material";
 import { Box } from "@mui/system";
 import React, { useState } from "react";
 import * as VSIcons from "react-icons/vsc";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../../images/logo.jpg";
 import "./Header.css";
 
@@ -41,10 +41,10 @@ const Header = () => {
                   md={6}
                   className={openMenu ? "navbar open" : "navbar"}
                >
-                  <Link to="/home">Home</Link>
-                  <Link to="/book">Book</Link>
-                  <Link to="/services">Services</Link>
-                  <Link to="/contact">Contact</Link>
+                  <NavLink to="/home">Home</NavLink>
+                  <NavLink to="/projects">Projects</NavLink>
+                  <NavLink to="/services">Services</NavLink>
+                  <NavLink to="/contact">Contact</NavLink>
                </Grid>
             </Grid>
          </Box>

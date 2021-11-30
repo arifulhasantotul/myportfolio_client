@@ -12,8 +12,11 @@ const Footer = () => {
             <Grid container spacing={2}>
                <Grid
                   item
-                  md={6}
-                  style={{ display: "flex", alignItems: "center" }}
+                  xs={6}
+                  style={{
+                     display: "flex",
+                     alignItems: "center",
+                  }}
                >
                   <a
                      href="https://www.facebook.com/ariful.hasan.129794/"
@@ -56,7 +59,7 @@ const Footer = () => {
                      <FaIcons.FaGithub />
                   </a>
                </Grid>
-               <Grid item md={6}>
+               <Grid item xs={6}>
                   <Typography className="copyright">
                      {" "}
                      &copy; 2021 All rights reserved Md Ariful Hasan

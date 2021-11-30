@@ -1,0 +1,95 @@
+.project_page {
+   background: var(--glass_effect);
+   background: var(--glass_green);
+   margin-top: 4rem;
+   padding-bottom: 4rem;
+   border-left: var(--glass_border);
+   min-height: 55rem;
+   backdrop-filter: var(--glass_backdrop_filter);
+}
+
+.project_page .box {
+   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+   border-radius: 15px;
+   background: rgba(255, 255, 255, 0.1);
+   border-top: 1px solid rgba(255, 255, 255, 0.5);
+   border-left: 1px solid rgba(255, 255, 255, 0.5);
+   backdrop-filter: blur(40px);
+   min-height: 18rem;
+   margin: 2rem 0.5rem;
+}
+.project_page .box img {
+   width: 100%;
+   height: auto;
+   object-fit: cover;
+   margin-top: -5rem;
+   border-radius: 0.5rem;
+}
+.project_page .box .content h3 {
+   font-size: 2rem;
+   color: var(--white);
+   font-weight: 600;
+}
+.project_page .box .content h4 {
+   font-size: 1.5rem;
+   color: var(--green);
+}
+.project_page .box .content ul {
+   padding: 1rem 0;
+}
+.project_page .box .content ul li {
+   font-size: 1.2rem;
+   list-style: none;
+   color: var(--gray);
+}
+.project_page .box .tag {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   padding: 1rem 0;
+}
+.project_page .box .tag p {
+   background: var(--gray);
+   margin: 0.7rem 0.5rem;
+   color: var(--green_dark);
+   border-radius: 1rem;
+   padding: 0.3rem 0.5rem;
+   font-size: 1rem;
+   font-weight: bold;
+}
+.project_page .box button.more,
+.project_page .box button.site,
+.project_page .box button.client,
+.project_page .box button.server {
+   position: absolute;
+   bottom: 0.7rem;
+   right: 1rem;
+   font-size: 2rem;
+   padding: 0.5rem 0.7rem 0 0.7rem;
+   color: var(--dark_green);
+   outline: none;
+   border: none;
+   background: var(--green);
+   border-radius: 50%;
+   cursor: pointer;
+}
+.project_page .box button.site {
+   right: 5rem;
+}
+.project_page .box button.client {
+   right: 9.3rem;
+}
+.project_page .box button.server {
+   right: 13.7rem;
+}
+@media (max-width: 1024px) {
+   .project_page {
+      margin-top: 3rem;
+   }
+}
+@media (max-width: 768px) {
+   .project_page {
+      margin-top: -1rem;
+   }
+}
