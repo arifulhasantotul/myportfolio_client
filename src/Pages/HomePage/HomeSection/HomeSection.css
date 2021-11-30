@@ -11,7 +11,7 @@
    max-width: 35rem;
    max-height: 35rem;
    border-radius: 50%;
-   border: 2rem solid var(--light_dark);
+   border: 2rem solid var(--light_green);
 }
 .homepage .homeSec .content_grid {
    display: flex;
@@ -23,7 +23,7 @@
 
 .homepage .homeSec .text_transition {
    font-size: 2.5rem;
-   color: var(--white);
+   color: var(--gray);
 }
 .homepage .homeSec .text_name {
    font-size: 5rem;
@@ -33,7 +33,7 @@
 .homepage .homeSec .text_details {
    font-size: 1.8rem;
    font-weight: 500;
-   color: var(--white);
+   color: var(--gray);
 }
 
 @media (max-width: 768px) {

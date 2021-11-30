@@ -1,9 +1,9 @@
 .header {
-   position: fixed;
+   position: relative;
    top: 4rem;
    left: 0;
    right: 0;
-   background: var(--light_dark);
+   background: var(--green_dark);
    z-index: 1000;
    border-top: var(--glass_border);
    border-left: var(--glass_border);

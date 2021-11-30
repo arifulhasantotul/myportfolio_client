@@ -1,7 +1,9 @@
 .homepage {
    background: var(--glass_effect);
-   margin-top: 15.5rem;
-   /* border-bottom: var(--glass_border); */
+   background: var(--glass_green);
+   margin-top: 5rem;
+   margin-bottom: 4rem;
+   padding-bottom: 4rem;
    border-left: var(--glass_border);
    border-bottom-left-radius: 3rem;
    border-bottom-right-radius: 3rem;
@@ -9,6 +11,6 @@
 }
 @media (max-width: 1024px) {
    .homepage {
-      margin-top: 12rem;
+      margin-top: 3rem;
    }
 }

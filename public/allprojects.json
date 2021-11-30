@@ -1,0 +1,189 @@
+[
+   {
+      "name": "Desired",
+      "category": "Full-stack",
+      "details": [
+         "Buy or cart watch easily.",
+         "Protected route for users and buyers.",
+         "Status changed or product delete functionality for admin"
+      ],
+      "tag": [
+         " React",
+         " Bootstrap",
+         " Swiper JS",
+         " React Hook Form",
+         " Firebase Authentication",
+         " Node JS",
+         " Express JS",
+         " MongoDB",
+         " VS Code"
+      ],
+      "dp_img": "https://i.ibb.co/8dsfbHF/desire1.jpg",
+      "sub_img": [
+         "https://i.ibb.co/8dsfbHF/desire1.jpg",
+         "https://i.ibb.co/RhM8Tnn/desire2.jpg",
+         "https://i.ibb.co/pjtJFTj/desire3.jpg",
+         "https://i.ibb.co/NNKB9Tc/desire4.jpg",
+         "https://i.ibb.co/p4pZ4Rn/desire5.jpg",
+         "https://i.ibb.co/CBrD48h/desire6.jpg",
+         "https://i.ibb.co/dJJpvXC/desire7.jpg",
+         "https://i.ibb.co/Sf4WPK4/desire8.jpg",
+         "https://i.ibb.co/Zg2VGqv/desire9.jpg",
+         "https://i.ibb.co/nP4R2wm/desire10.jpg",
+         "https://i.ibb.co/xs87CyK/desire11.jpg",
+         "https://i.ibb.co/ydhcGTt/desire12.jpg",
+         "https://i.ibb.co/jkj2bDj/desire13.jpg",
+         "https://i.ibb.co/BLLzhmY/desire14.jpg"
+      ],
+      "live_link": "https://desired-a1f73.web.app/",
+      "client_side": "https://github.com/arifulhasantotul/luxury_wactch_desire_client",
+      "server_side": "https://github.com/arifulhasantotul/luxury_watch_desire_server"
+   },
+   {
+      "name": "Adventure",
+      "category": "Full-stack",
+      "details": [
+         "Book destination with one click.",
+         " Firebase Authentication.",
+         "CRUD operation"
+      ],
+      "tag": [
+         " React",
+         " Bootstrap",
+         " Swiper JS",
+         " React Hook Form",
+         " Firebase Authentication",
+         " Node JS",
+         " Express JS",
+         " MongoDB",
+         " VS Code"
+      ],
+      "dp_img": "https://i.ibb.co/2YCVCrg/ad1.jpg",
+      "sub_img": [
+         "https://i.ibb.co/2YCVCrg/ad1.jpg",
+         "https://i.ibb.co/9rrGyZv/ad2.jpg",
+         "https://i.ibb.co/XCxt4qQ/ad3.jpg",
+         "https://i.ibb.co/DkyrWKL/ad4.jpg",
+         "https://i.ibb.co/QDxdsRy/ad5.jpg",
+         "https://i.ibb.co/PD2Kzr0/ad6.jpg",
+         "https://i.ibb.co/HKL7VVz/ad7.jpg",
+         "https://i.ibb.co/xJD4mZC/ad8.jpg",
+         "https://i.ibb.co/wsB3nB0/ad9.jpg",
+         "https://i.ibb.co/DgwQGhP/ad10.jpg",
+         "https://i.ibb.co/M7dGRKd/ad11.jpg",
+         "https://i.ibb.co/hBtBtCR/ad12.jpg",
+         "https://i.ibb.co/JkkdRdY/ad13.jpg"
+      ],
+      "live_link": "https://adventure-f3ee7.web.app/",
+      "client_side": "https://github.com/arifulhasantotul/adventure_tours_travels_client",
+      "server_side": "https://github.com/arifulhasantotul/adventure_tours_travels_server"
+   },
+   {
+      "name": "Doctor's Portal",
+      "category": "Full-stack",
+      "condition": "Finalized",
+      "details": [
+         "Book your required services or doctors.",
+         "Stripe payment gateway.",
+         "Admin dashboard"
+      ],
+      "tag": [
+         " React",
+         " Material UI",
+         " Swiper JS",
+         " React Hook Form",
+         " Firebase Authentication",
+         " Node JS",
+         " Express JS",
+         " MongoDB",
+         " VS Code",
+         "Stripe"
+      ],
+      "dp_img": "https://i.ibb.co/1L27VcK/dc1.jpg",
+      "sub_img": [
+         "https://i.ibb.co/1L27VcK/dc1.jpg",
+         "https://i.ibb.co/zQXkfC4/dc2.jpg",
+         "https://i.ibb.co/q7fp3jZ/dc3.jpg",
+         "https://i.ibb.co/gyDQz5N/dc4.jpg",
+         "https://i.ibb.co/Yts41fg/dc5.jpg"
+      ],
+      "live_link": "https://doctorsportal-23dc7.web.app/",
+      "client_side": "https://github.com/arifulhasantotul/programminghero_final_project_react",
+      "server_side": "https://github.com/arifulhasantotul/programminghero_final_project_server"
+   },
+   {
+      "name": "Desire",
+      "category": "Design",
+      "condition": "Finalized",
+      "details": ["Watch collection site", "Only design", "Responsive"],
+      "tag": [" HTML", "CSS", " Bootstrap", " VS Code"],
+      "dp_img": "https://i.ibb.co/C28VpH5/des1.jpg",
+      "sub_img": [
+         "https://i.ibb.co/C28VpH5/des1.jpg",
+         "https://i.ibb.co/TcS165c/des2.jpg",
+         "https://i.ibb.co/1QWB0Mz/des3.jpg",
+         "https://i.ibb.co/6bFLfT2/des4.jpg",
+         "https://i.ibb.co/3kPzr3z/des5.jpg",
+         "https://i.ibb.co/wYLyTDC/des6.jpg"
+      ],
+      "live_link": "https://desier.netlify.app/",
+      "client_side": "https://github.com/arifulhasantotul/projectdesire"
+   },
+   {
+      "name": "Score",
+      "category": "Design",
+      "condition": "Finalized",
+      "details": ["Football site", "Only design", "Responsive"],
+      "tag": [" HTML", "CSS", " Bootstrap", " VS Code"],
+      "dp_img": "https://i.ibb.co/xfCZF97/score1.png",
+      "sub_img": [
+         "https://i.ibb.co/xfCZF97/score1.png",
+         "https://i.ibb.co/crpN2Ry/score2.png",
+         "https://i.ibb.co/4ptKd5C/score3.png",
+         "https://i.ibb.co/XXbMmfT/score4.png",
+         "https://i.ibb.co/PD4jB0w/score5.png",
+         "https://i.ibb.co/25K0XFz/score6.png",
+         "https://i.ibb.co/PCXzB0G/score7.png"
+      ],
+      "live_link": "https://playerscore.netlify.app/",
+      "client_side": "https://github.com/arifulhasantotul/secondassignmentarif"
+   },
+   {
+      "name": "Honda",
+      "category": "Design",
+      "condition": "Finalized",
+      "details": ["Bike selling site", "Only design", "Responsive"],
+      "tag": [" HTML", "CSS", " Bootstrap", " VS Code"],
+      "dp_img": "https://i.ibb.co/7R6PJ1w/honda1.jpg",
+      "sub_img": [
+         "https://i.ibb.co/7R6PJ1w/honda1.jpg",
+         "https://i.ibb.co/s92MFNK/honda2.jpg",
+         "https://i.ibb.co/sH5Ch81/honda3.jpg",
+         "https://i.ibb.co/N6N0jfj/honda4.jpg",
+         "https://i.ibb.co/JcBLgrq/honda5.jpg",
+         "https://i.ibb.co/RSVfyx8/honda6.jpg",
+         "https://i.ibb.co/D5828GZ/honda7.jpg",
+         "https://i.ibb.co/gyBLSXm/honda8.jpg",
+         "https://i.ibb.co/KVD47wL/honda9.jpg"
+      ],
+      "live_link": "https://hondabuy.netlify.app/",
+      "client_side": "https://github.com/arifulhasantotul/projecthonda"
+   },
+   {
+      "name": "Bon appetit",
+      "category": "Design",
+      "condition": "Finalized",
+      "details": ["Healthy food site", "Only design", "Responsive"],
+      "tag": [" HTML", "CSS", " Bootstrap", " VS Code"],
+      "dp_img": "https://i.ibb.co/GHkPQ3J/bon1.jpg",
+      "sub_img": [
+         "https://i.ibb.co/GHkPQ3J/bon1.jpg",
+         "https://i.ibb.co/whJ4cjp/bon2.jpg",
+         "https://i.ibb.co/FKzWR0W/bon3.jpg",
+         "https://i.ibb.co/YWHjjpy/bon4.jpg",
+         "https://i.ibb.co/SNLq3Mh/bon5.jpg"
+      ],
+      "live_link": "https://bonappetitfood.netlify.app/",
+      "client_side": "https://github.com/arifulhasantotul/responsivewebprac00"
+   }
+]

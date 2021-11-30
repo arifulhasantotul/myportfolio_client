@@ -1,15 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
 
 :root {
-   --gradient_dark: linear-gradient(0deg, #1b1b1b, #222, #1b1b1b);
+   --gradient_bg: linear-gradient(
+      to right bottom,
+      #48dd81,
+      #00d6a4,
+      #00cdbe,
+      #00c2cf,
+      #06b6d4
+   );
    --poppins: "Poppins", sans-serif;
    --body_dark: #161616;
    --header_bg: #434343;
    --light_dark: #444444;
+   /* --green_dark: rgba(0, 127, 104, 0.9); */
+   --light_green: rgba(5, 126, 55, 0.192);
+   --green_dark: #022e35;
+   --glass_green: #022e35;
+   --cyan: #06b6d4;
+   --green: #4ade80;
    --gray: #d5d5d5;
    --white: #f5f5f5;
    --orange: #ffa500;
-   --glass_effect: rgba(255, 255, 255, 0.1);
+   /* --glass_effect: rgba(255, 255, 255, 0.1); */
+   --glass_effect: rgba(0, 0, 0, 0.4);
    --glass_shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
    --glass_border: 1px solid rgba(255, 255, 255, 0.5);
    --glass_backdrop_filter: blur(5px);
@@ -26,25 +40,36 @@
    text-decoration: none;
 }
 body {
-   background: var(--body_dark);
+   /* background: var(--body_dark); */
+   background: var(--gradient_bg);
+   /* background: #022e35; */
 }
 
 html {
    font-size: 62.5%;
    scroll-behavior: smooth;
 }
+.heading {
+   color: white;
+   margin: 3rem 0 7rem 0;
+   text-align: center;
+   font-size: 2.5rem;
+   color: var(--green);
+   font-weight: normal;
+}
 
 .btn {
    padding: 1rem 2rem;
    border: 0.1rem solid var(--gray);
+   font-size: 1.5rem;
    color: var(--gray);
    border-radius: 2rem;
-   background: var(--light_dark);
+   background: var(--light_green);
    margin: 2rem 0.5rem 1rem 0.5rem;
 }
 
 .btn:hover {
-   background: var(--gray);
+   background: var(--cyan);
    color: var(--body_dark);
    transition: var(--change);
 }

@@ -1,0 +1,76 @@
+.card {
+   position: relative;
+   overflow: hidden;
+   border-radius: 1rem;
+   transition: var(--change);
+}
+.card:hover {
+   box-shadow: var(--glass_shadow);
+}
+.card img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.card .content {
+   position: absolute;
+   top: 0%;
+   left: -100%;
+   width: 100%;
+   height: 100%;
+   background: rgba(0, 0, 0, 0.7);
+   padding: 1rem;
+}
+.card:hover .content {
+   left: 0%;
+   transition: var(--change);
+}
+.card .content h3 {
+   font-size: 2rem;
+   font-weight: 600;
+   color: var(--cyan);
+   padding-left: 0.5rem;
+}
+.card .content h4 {
+   font-size: 1.5rem;
+   color: var(--gray);
+   padding: 0.5rem 0 0.5rem 0.5rem;
+}
+.card .content .tag {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+}
+.card .content .tag p {
+   background: var(--cyan);
+   margin: 0.5rem;
+   border-radius: 1rem;
+   padding: 0.3rem 0.5rem;
+   font-size: 1rem;
+}
+.card button.more,
+.card button.site,
+.card button.client,
+.card button.server {
+   position: absolute;
+   top: 0.7rem;
+   right: 1rem;
+   font-size: 2rem;
+   padding: 0.5rem 0.7rem 0 0.7rem;
+   color: var(--dark_green);
+   outline: none;
+   border: none;
+   background: var(--green);
+   border-radius: 50%;
+   cursor: pointer;
+}
+.card button.site {
+   top: 5rem;
+}
+.card button.client {
+   top: 9.3rem;
+}
+.card button.server {
+   top: 13.7rem;
+}
