@@ -7,7 +7,7 @@ import * as VscIcons from "react-icons/vsc";
 import Tilt from "react-parallax-tilt";
 
 const SingleProject = ({ project }) => {
-   const { name, tag, category, dp_img } = project;
+   const { name, tag, category, dp_img, live_link, client_side } = project;
    return (
       <Grid item xs={4} sm={4} md={4} sx={{ px: 2, pb: 2 }}>
          <Tilt>
@@ -24,18 +24,38 @@ const SingleProject = ({ project }) => {
                            <p key={index}>{data}</p>
                         ))}
                      </div>
-                     <button className="more">
+                     <a
+                        href={live_link}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="more"
+                     >
                         <FiIcons.FiMoreVertical />
-                     </button>
-                     <button className="site">
+                     </a>
+                     <a
+                        href={live_link}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="site"
+                     >
                         <FaIcons.FaSlideshare />
-                     </button>
-                     <button className="client">
+                     </a>
+                     <a
+                        href={client_side}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="client"
+                     >
                         <VscIcons.VscGithubInverted />
-                     </button>
-                     <button className="server">
+                     </a>
+                     <a
+                        href={project?.server_side}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="server"
+                     >
                         <VscIcons.VscGithub />
-                     </button>
+                     </a>
                   </Grid>
                </Grid>
             </Box>

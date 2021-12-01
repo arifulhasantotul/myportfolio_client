@@ -41,6 +41,7 @@
    align-items: center;
    justify-content: flex-start;
    flex-wrap: wrap;
+   padding-right: 2.8rem;
 }
 .card .content .tag p {
    background: var(--cyan);
@@ -49,10 +50,10 @@
    padding: 0.3rem 0.5rem;
    font-size: 1rem;
 }
-.card button.more,
-.card button.site,
-.card button.client,
-.card button.server {
+.card a.more,
+.card a.site,
+.card a.client,
+.card a.server {
    position: absolute;
    top: 0.7rem;
    right: 1rem;
@@ -65,12 +66,12 @@
    border-radius: 50%;
    cursor: pointer;
 }
-.card button.site {
+.card a.site {
    top: 5rem;
 }
-.card button.client {
+.card a.client {
    top: 9.3rem;
 }
-.card button.server {
+.card a.server {
    top: 13.7rem;
 }

@@ -12,7 +12,8 @@ const Footer = () => {
             <Grid container spacing={2}>
                <Grid
                   item
-                  xs={6}
+                  xs={12}
+                  sm={6}
                   style={{
                      display: "flex",
                      alignItems: "center",
@@ -59,7 +60,7 @@ const Footer = () => {
                      <FaIcons.FaGithub />
                   </a>
                </Grid>
-               <Grid item xs={6}>
+               <Grid item xs={12} sm={6}>
                   <Typography className="copyright">
                      {" "}
                      &copy; 2021 All rights reserved Md Ariful Hasan

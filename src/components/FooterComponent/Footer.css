@@ -31,3 +31,12 @@
    color: var(--gray);
    margin: 2rem 0;
 }
+@media (max-width: 450px) {
+   .footer a {
+      text-align: center;
+      margin: 2rem auto -1rem auto;
+   }
+   .footer .copyright {
+      text-align: center;
+   }
+}

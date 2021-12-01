@@ -2,6 +2,7 @@
    {
       "name": "Desired",
       "category": "Full-stack",
+      "aos": "fade-up",
       "details": [
          "Buy or cart watch easily.",
          "Protected route for users and buyers.",
@@ -42,6 +43,7 @@
    {
       "name": "Adventure",
       "category": "Full-stack",
+      "aos": "fade-down",
       "details": [
          "Book destination with one click.",
          " Firebase Authentication.",
@@ -80,6 +82,7 @@
    },
    {
       "name": "Doctor's Portal",
+      "aos": "fade-right",
       "category": "Full-stack",
       "condition": "Finalized",
       "details": [
@@ -113,6 +116,7 @@
    },
    {
       "name": "Desire",
+      "aos": "fade-left",
       "category": "Design",
       "condition": "Finalized",
       "details": ["Watch collection site", "Only design", "Responsive"],
@@ -131,6 +135,7 @@
    },
    {
       "name": "Score",
+      "aos": "fade-up-right",
       "category": "Design",
       "condition": "Finalized",
       "details": ["Football site", "Only design", "Responsive"],
@@ -150,6 +155,7 @@
    },
    {
       "name": "Honda",
+      "aos": "fade-up-left",
       "category": "Design",
       "condition": "Finalized",
       "details": ["Bike selling site", "Only design", "Responsive"],
@@ -171,6 +177,7 @@
    },
    {
       "name": "Bon appetit",
+      "aos": "fade-down-left",
       "category": "Design",
       "condition": "Finalized",
       "details": ["Healthy food site", "Only design", "Responsive"],
