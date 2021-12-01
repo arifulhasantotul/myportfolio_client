@@ -72,3 +72,23 @@ html {
    color: var(--body_dark);
    transition: var(--change);
 }
+@media (max-width: 1200px) {
+   html {
+      font-size: 59%;
+   }
+}
+@media (max-width: 1024px) {
+   html {
+      font-size: 55%;
+   }
+}
+@media (max-width: 768px) {
+   html {
+      font-size: 52%;
+   }
+}
+@media (max-width: 450px) {
+   html {
+      font-size: 48%;
+   }
+}

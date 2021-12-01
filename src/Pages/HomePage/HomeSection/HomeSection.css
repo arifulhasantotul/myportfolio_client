@@ -38,7 +38,7 @@
 
 @media (max-width: 768px) {
    .homepage .homeSec .grid_layer {
-      padding-top: 7rem;
+      padding-top: 20rem;
    }
    .homepage .homeSec .content_grid {
       align-items: center;
@@ -46,6 +46,10 @@
    }
 }
 @media (max-width: 450px) {
+   .homepage .homeSec .grid_layer {
+      padding-top: 30rem;
+      padding-left: 2rem;
+   }
    .homepage .homeSec .content_grid {
       text-align: center;
    }

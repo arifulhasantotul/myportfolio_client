@@ -1,14 +1,17 @@
 .homepage {
    background: var(--glass_effect);
    background: var(--glass_green);
-   margin-top: 5rem;
+   margin-top: 4rem;
    padding-bottom: 4rem;
    border-left: var(--glass_border);
    min-height: 55rem;
    backdrop-filter: var(--glass_backdrop_filter);
 }
+::-webkit-scrollbar {
+   display: none;
+}
 @media (max-width: 1024px) {
    .homepage {
-      margin-top: 3rem;
+      margin-top: 2rem;
    }
 }
