@@ -1,0 +1,97 @@
+.contact_page {
+   background: var(--glass_green);
+   margin-top: 4rem;
+   padding-bottom: 4rem;
+   border-left: var(--glass_border);
+   min-height: 55rem;
+   backdrop-filter: var(--glass_backdrop_filter);
+   overflow-x: hidden;
+}
+.contact_page .contact_form {
+   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+   border-radius: 15px;
+   background: rgba(255, 255, 255, 0.1);
+   border-top: 1px solid rgba(255, 255, 255, 0.5);
+   border-left: 1px solid rgba(255, 255, 255, 0.5);
+   backdrop-filter: blur(40px);
+   min-height: 18rem;
+   max-width: 55rem;
+   padding: 2rem 0;
+   margin: 2rem auto;
+}
+.contact_page .contact_form .input_field {
+   width: 75%;
+   margin: 0 auto;
+}
+.contact_page .contact_form .input_field span {
+   display: block;
+   padding: 0.5rem 0;
+   font-size: 1.5rem;
+   color: var(--white);
+   font-weight: 600;
+   letter-spacing: 0.15rem;
+   text-align: left;
+}
+.contact_page .contact_form .input_field .error {
+   margin: 0 auto;
+   margin-top: -5px;
+   text-align: start;
+   color: red;
+}
+
+.contact_page .contact_form .input_field .error::before {
+   display: inline;
+   content: "⚠ ";
+}
+.contact_page .contact_form .input_field input,
+.contact_page .contact_form .input_field textarea {
+   background: var(--gray) !important;
+   border: none;
+   border-radius: 0.5rem;
+   padding: 1rem;
+   font-size: 1.6rem;
+   color: var(--green_dark);
+   text-transform: none;
+   letter-spacing: 0.15rem;
+   font-weight: 600;
+   margin-bottom: 1rem;
+   width: 100%;
+}
+.contact_page .contact_form .input_field textarea {
+   height: 20rem;
+   resize: none;
+}
+.contact_page .contact_form .input_field input:focus,
+.contact_page .contact_form .input_field textarea:focus {
+   border: 0.1rem solid var(--gray);
+   outline: none;
+}
+.contact_page .contact_form .input_field.button {
+   position: relative;
+}
+.contact_page .contact_form .input_field.button .mail_icon {
+   position: absolute;
+   top: 2.5rem;
+   left: 14rem;
+   color: var(--green);
+   font-size: 2rem;
+}
+.contact_page .contact_form .input_field.button:hover .mail_icon {
+   color: var(--green_dark);
+}
+@media (max-width: 1024px) {
+   .contact_page {
+      margin-top: 3rem;
+   }
+}
+@media (max-width: 768px) {
+   .contact_page {
+      margin-top: 2rem;
+      padding-left: 0rem;
+   }
+}
+@media (max-width: 450px) {
+   .contact_page {
+      margin-top: 1rem;
+   }
+}
