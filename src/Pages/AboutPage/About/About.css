@@ -1,0 +1,25 @@
+.about_page {
+   background: var(--glass_green);
+   margin-top: 4rem;
+   padding-bottom: 4rem;
+   border-left: var(--glass_border);
+   min-height: 55rem;
+   backdrop-filter: var(--glass_backdrop_filter);
+   overflow-x: hidden;
+}
+@media (max-width: 1024px) {
+   .about_page {
+      margin-top: 3rem;
+   }
+}
+@media (max-width: 768px) {
+   .about_page {
+      margin-top: 2rem;
+      padding-left: 0rem;
+   }
+}
+@media (max-width: 450px) {
+   .about_page {
+      margin-top: 1rem;
+   }
+}
