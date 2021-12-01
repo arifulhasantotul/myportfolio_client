@@ -58,7 +58,7 @@
    font-size: 1rem;
    font-weight: bold;
 }
-.project_page .box a.more,
+.project_page .box button.more,
 .project_page .box a.site,
 .project_page .box a.client,
 .project_page .box a.server {
