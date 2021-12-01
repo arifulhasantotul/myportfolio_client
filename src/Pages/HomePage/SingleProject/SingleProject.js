@@ -2,15 +2,19 @@ import { Grid } from "@mui/material";
 import { Box } from "@mui/system";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
-import React from "react";
+import React, { useState } from "react";
 import * as FaIcons from "react-icons/fa";
 import * as FiIcons from "react-icons/fi";
 import * as VscIcons from "react-icons/vsc";
 import Tilt from "react-parallax-tilt";
+import CustomModal from "../../../shared/CustomModal/CustomModal";
 
 AOS.init();
 
 const SingleProject = ({ project }) => {
+   const [modalShow, setModalShow] = useState(false);
+   const openModal = () => setModalShow(true);
+   const closeModal = () => setModalShow(false);
    const { name, aos, tag, category, dp_img, live_link, client_side } = project;
    return (
       <Grid data-aos={aos} item xs={4} sm={4} md={4} sx={{ px: 2, pb: 2 }}>
@@ -28,14 +32,9 @@ const SingleProject = ({ project }) => {
                            <p key={index}>{data}</p>
                         ))}
                      </div>
-                     <a
-                        href={live_link}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="more"
-                     >
+                     <button onClick={openModal} className="more">
                         <FiIcons.FiMoreVertical />
-                     </a>
+                     </button>
                      <a
                         href={live_link}
                         target="_blank"
@@ -64,6 +63,12 @@ const SingleProject = ({ project }) => {
                </Grid>
             </Box>
          </Tilt>
+         <CustomModal
+            modalShow={modalShow}
+            setModalShow={setModalShow}
+            closeModal={closeModal}
+            project={project}
+         />
       </Grid>
    );
 };

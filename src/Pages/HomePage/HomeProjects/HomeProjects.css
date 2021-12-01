@@ -50,7 +50,7 @@
    padding: 0.3rem 0.5rem;
    font-size: 1rem;
 }
-.card a.more,
+.card button.more,
 .card a.site,
 .card a.client,
 .card a.server {
