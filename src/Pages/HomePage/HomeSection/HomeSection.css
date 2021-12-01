@@ -1,5 +1,6 @@
 .homepage .homeSec .grid_layer {
    padding-top: 7rem;
+   overflow-x: hidden;
 }
 .homepage .homeSec .img_grid {
    display: flex;
@@ -36,19 +37,23 @@
    color: var(--gray);
 }
 
+@media (max-width: 900px) {
+   .homepage .homeSec .grid_layer {
+      padding-top: 20rem;
+   }
+}
 @media (max-width: 768px) {
    .homepage .homeSec .grid_layer {
       padding-top: 20rem;
    }
    .homepage .homeSec .content_grid {
       align-items: center;
-      padding: 2rem 2rem 3rem 2rem;
+      padding: 2rem 2rem 3rem 1rem;
    }
 }
 @media (max-width: 450px) {
    .homepage .homeSec .grid_layer {
       padding-top: 30rem;
-      padding-left: 2rem;
    }
    .homepage .homeSec .content_grid {
       text-align: center;

@@ -19,7 +19,15 @@ const IndividualProject = ({ project }) => {
       project;
    return (
       <>
-         <Grid data-aos={aos} item xs={12} sm={12} md={6} sx={{ px: 2, pb: 2 }}>
+         <Grid
+            data-aos={aos}
+            data-aos-once="true"
+            item
+            xs={12}
+            sm={12}
+            md={6}
+            sx={{ pl: 1, pr: 4, pb: 2 }}
+         >
             <Tilt>
                <Box sx={{ flexGrow: 1 }} className="box_wrapper">
                   <Grid container spacing={2} className="box">
