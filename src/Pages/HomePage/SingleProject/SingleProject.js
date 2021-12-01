@@ -1,15 +1,19 @@
 import { Grid } from "@mui/material";
 import { Box } from "@mui/system";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
 import React from "react";
 import * as FaIcons from "react-icons/fa";
 import * as FiIcons from "react-icons/fi";
 import * as VscIcons from "react-icons/vsc";
 import Tilt from "react-parallax-tilt";
 
+AOS.init();
+
 const SingleProject = ({ project }) => {
-   const { name, tag, category, dp_img, live_link, client_side } = project;
+   const { name, aos, tag, category, dp_img, live_link, client_side } = project;
    return (
-      <Grid item xs={4} sm={4} md={4} sx={{ px: 2, pb: 2 }}>
+      <Grid data-aos={aos} item xs={4} sm={4} md={4} sx={{ px: 2, pb: 2 }}>
          <Tilt>
             <Box sx={{ flexGrow: 1 }} className="card">
                <Grid container spacing={2}>
