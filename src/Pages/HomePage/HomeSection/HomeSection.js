@@ -3,7 +3,6 @@ import { Box } from "@mui/system";
 // import Axios from "axios";
 // import fileDownload from "js-file-download";
 import React, { useEffect, useState } from "react";
-import Tilt from "react-parallax-tilt";
 import { useNavigate } from "react-router-dom";
 import TextTransition, { presets } from "react-text-transition";
 import owner from "../../../images/owner.jpg";
@@ -41,9 +40,7 @@ const HomeSection = () => {
          <Box className="homeSec">
             <Grid container spacing={2} className="grid_layer">
                <Grid item xs={12} md={5} className="img_grid">
-                  <Tilt>
-                     <img src={owner} alt="portfolio_pic" />
-                  </Tilt>
+                  <img src={owner} alt="portfolio_pic" />
                </Grid>
                <Grid item xs={12} md={7} className="content_grid">
                   <Typography className="text_transition" component="div">
