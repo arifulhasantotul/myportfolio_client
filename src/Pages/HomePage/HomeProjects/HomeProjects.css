@@ -5,6 +5,7 @@
    transition: var(--change);
 }
 .card:hover {
+   transform: translateY(-10px);
    box-shadow: var(--glass_shadow);
 }
 .card img {
