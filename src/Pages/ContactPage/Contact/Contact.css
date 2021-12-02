@@ -92,6 +92,6 @@
 }
 @media (max-width: 450px) {
    .contact_page {
-      margin-top: 1rem;
+      margin-top: 0rem;
    }
 }

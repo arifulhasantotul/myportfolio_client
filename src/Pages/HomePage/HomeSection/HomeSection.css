@@ -52,6 +52,9 @@
    }
 }
 @media (max-width: 450px) {
+   .homepage .homeSec .text_name {
+      font-size: 4rem;
+   }
    .homepage .homeSec .grid_layer {
       padding-top: 30rem;
    }

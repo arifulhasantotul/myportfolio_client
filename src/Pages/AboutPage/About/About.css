@@ -7,6 +7,53 @@
    backdrop-filter: var(--glass_backdrop_filter);
    overflow-x: hidden;
 }
+.about_page .resume .resume_left,
+.about_page .resume .resume_right {
+   padding: 0 1.5rem;
+}
+.about_page .resume .resume_left h3,
+.about_page .resume .resume_right h3 {
+   font-size: 2.5rem;
+   color: var(--white);
+   letter-spacing: 0.2rem;
+}
+.about_page .resume .resume_left hr,
+.about_page .resume .resume_right hr {
+   width: 30%;
+}
+.about_page .resume .resume_left .education,
+.about_page .resume .resume_right .experience {
+   padding: 3rem 0 1rem 3rem;
+   margin-left: 1rem;
+   margin-top: 2rem;
+   border-left: 1px solid var(--white);
+   position: relative;
+}
+.about_page .resume .resume_left .education h3 {
+   font-size: 2rem;
+   color: var(--gray);
+}
+.about_page .resume .resume_left .education h4 {
+   position: absolute;
+   font-size: 1rem;
+   padding: 0.4rem 1.5rem;
+   border: 1px solid var(--gray);
+   border-radius: 3rem;
+   color: var(--gray);
+   top: 0.7rem;
+   left: -1.5rem;
+   background: #033a42;
+   z-index: 1000;
+}
+.about_page .resume .resume_left .education h5 {
+   color: #095561;
+   font-size: 1.5rem;
+}
+.about_page .resume .resume_left .education p,
+.about_page .resume .resume_right .experience p {
+   font-size: 1.2rem;
+   color: var(--gray);
+}
 .about_page .skill_wrapper {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
@@ -21,7 +68,7 @@
    backdrop-filter: blur(40px);
    max-width: 25rem;
    max-height: 25rem;
-   padding: 3rem;
+   padding: 4rem;
    margin: 2rem auto;
 }
 .about_page .skill_wrapper .skill:hover {
@@ -32,6 +79,12 @@
 .CircularProgressbar .CircularProgressbar-text {
    font-size: 2rem;
    color: #777 !important;
+}
+.about_page .skill_wrapper .skill .skill_name {
+   text-align: center;
+   color: #fff;
+   font-size: 2rem;
+   margin-top: 0.7rem;
 }
 .about_page
    .skill_wrapper
@@ -55,6 +108,6 @@
 }
 @media (max-width: 450px) {
    .about_page {
-      margin-top: 1rem;
+      margin-top: 0rem;
    }
 }

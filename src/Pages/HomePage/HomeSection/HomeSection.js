@@ -4,6 +4,7 @@ import { Box } from "@mui/system";
 // import fileDownload from "js-file-download";
 import React, { useEffect, useState } from "react";
 import Tilt from "react-parallax-tilt";
+import { useNavigate } from "react-router-dom";
 import TextTransition, { presets } from "react-text-transition";
 import owner from "../../../images/owner.jpg";
 import "./HomeSection.css";
@@ -12,6 +13,9 @@ const TEXTS = ["Student", "Web Developer", "Web Designer", "MERN Learner"];
 
 const HomeSection = () => {
    const [index, setIndex] = useState(0);
+   const navigate = useNavigate();
+
+   const goToContact = () => navigate("/contact");
 
    useEffect(() => {
       const intervalId = setInterval(
@@ -69,7 +73,9 @@ const HomeSection = () => {
                      >
                         Download Resume
                      </a>
-                     <button className="btn">Contact</button>
+                     <button onClick={goToContact} className="btn">
+                        Contact
+                     </button>
                   </div>
                </Grid>
             </Grid>

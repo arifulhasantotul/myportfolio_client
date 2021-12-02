@@ -76,9 +76,11 @@
       border-top: var(--top_border);
       padding: 1rem 2rem;
       clip-path: var(--hide_bar);
+      transition: all 0.2s ease-in-out;
    }
    .header .navbar.open {
       clip-path: var(--open_bar);
+      transition: all 0.2s ease-in-out;
    }
    .header .navbar a {
       display: block;
@@ -95,7 +97,7 @@
       font-size: 50%;
    }
    .header {
-      top: 1rem;
+      top: 0.5rem;
    }
    .heading span {
       font-size: 2.5rem;

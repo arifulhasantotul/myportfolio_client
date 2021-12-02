@@ -14,7 +14,7 @@ export const SkillsData = [
    {
       progressValue: "65%",
       circleColor: "#FF04F7",
-      skillName: "Node JS",
+      skillName: "JavaScript",
       aos: "flip-left",
    },
    {

@@ -41,11 +41,21 @@ const Header = () => {
                   md={6}
                   className={openMenu ? "navbar open" : "navbar"}
                >
-                  <NavLink to="/home">Home</NavLink>
-                  <NavLink to="/projects">Projects</NavLink>
-                  <NavLink to="/about">About</NavLink>
-                  <NavLink to="/blogs">Blogs</NavLink>
-                  <NavLink to="/contact">Contact</NavLink>
+                  <NavLink to="/home" onClick={toggleMenu}>
+                     Home
+                  </NavLink>
+                  <NavLink to="/projects" onClick={toggleMenu}>
+                     Projects
+                  </NavLink>
+                  <NavLink to="/about" onClick={toggleMenu}>
+                     About
+                  </NavLink>
+                  <NavLink to="/blogs" onClick={toggleMenu}>
+                     Blogs
+                  </NavLink>
+                  <NavLink to="/contact" onClick={toggleMenu}>
+                     Contact
+                  </NavLink>
                </Grid>
             </Grid>
          </Box>
