@@ -34,6 +34,9 @@ const Contact = () => {
    };
    return (
       <Container className="contact_page">
+         <div className="heading">
+            <h1>Contact</h1>
+         </div>
          <form ref={form} className="contact_form" onSubmit={sendEmail}>
             <div className="input_field">
                <span>Your Name</span>

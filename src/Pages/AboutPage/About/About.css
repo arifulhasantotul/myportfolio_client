@@ -7,6 +7,41 @@
    backdrop-filter: var(--glass_backdrop_filter);
    overflow-x: hidden;
 }
+.about_page .skill_wrapper {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+}
+
+.about_page .skill_wrapper .skill {
+   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+   border-radius: 15px;
+   background: rgba(0, 0, 0, 0.2);
+   border-top: 1px solid rgba(255, 255, 255, 0.5);
+   border-left: 1px solid rgba(255, 255, 255, 0.5);
+   backdrop-filter: blur(40px);
+   max-width: 25rem;
+   max-height: 25rem;
+   padding: 3rem;
+   margin: 2rem auto;
+}
+.about_page .skill_wrapper .skill:hover {
+   transform: translateY(-10px);
+   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+   transition: all 0.2s linear;
+}
+.CircularProgressbar .CircularProgressbar-text {
+   font-size: 2rem;
+   color: #777 !important;
+}
+.about_page
+   .skill_wrapper
+   .skill:hover
+   .CircularProgressbar
+   .CircularProgressbar-text {
+   font-size: 3rem;
+   color: #fff;
+   transition: all 0.2s linear;
+}
 @media (max-width: 1024px) {
    .about_page {
       margin-top: 3rem;
