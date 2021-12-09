@@ -104,7 +104,7 @@ const ReviewSec = () => {
             </Swiper>
          )}
 
-         <div style={{ textAlign: "center" }}>
+         <div style={{ textAlign: "center", display: "none" }}>
             <button className="btn">Please Give Feedback</button>
          </div>
       </Container>
