@@ -63,7 +63,7 @@ const HomeSection = () => {
                         Download Resume
                      </button> */}
                      <a
-                        href="https://drive.google.com/file/d/1vRX5Ke51_rONMasYE3z1vhn-TndH4whv/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1Pg8dhSXDekdQrtytCR5LlrHT8fhp5fHV/view?usp=sharing"
                         target="_blank"
                         className="btn"
                         rel="noreferrer"
