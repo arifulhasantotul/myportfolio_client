@@ -33,14 +33,9 @@ const ReviewSec = () => {
 
    return (
       <Container fluid className="review">
-         <h1 className="heading">
-            <span>r</span>
-            <span>e</span>
-            <span>v</span>
-            <span>i</span>
-            <span>e</span>
-            <span>w</span>
-         </h1>
+         <div className="heading">
+            <h1>TESTIMONIAL</h1>
+         </div>
          {reviews.length > 0 && (
             <Swiper
                effect={"coverflow"}
@@ -77,7 +72,11 @@ const ReviewSec = () => {
             >
                {!reviewsLoading &&
                   reviews.map((item, index) => (
-                     <SwiperSlide key={index} className="slide">
+                     <SwiperSlide
+                        data-aos="zoom-in-up"
+                        key={index}
+                        className="slide"
+                     >
                         <span className="review_quote">
                            {" "}
                            <FaIcons.FaQuoteRight />
@@ -97,7 +96,7 @@ const ReviewSec = () => {
                            </div>
                         </div>
                         <p>{item.comment.slice(0, 180)}</p>
-                        <p className="text-center text-white">{item.email}</p>
+                        <p className="review_email">{item.email}</p>
                      </SwiperSlide>
                   ))}
                {reviewsLoading &&

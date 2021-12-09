@@ -72,6 +72,9 @@ html {
    color: var(--body_dark);
    transition: var(--change);
 }
+.swiper-pagination-fraction {
+   color: var(--green);
+}
 @media (max-width: 1200px) {
    html {
       font-size: 59%;

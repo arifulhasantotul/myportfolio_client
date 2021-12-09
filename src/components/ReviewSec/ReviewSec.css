@@ -10,7 +10,7 @@
    border-radius: 0.5rem;
    position: relative;
    margin-bottom: 4rem;
-   background: var(--bg_dark);
+   background: rgba(255, 255, 255, 0.1);
 }
 
 .review .slide .review_quote {
@@ -44,7 +44,11 @@
 .review .slide p {
    font-size: 1.5rem;
    line-height: 1.8rem;
-   color: var(--light_color);
+   color: var(--gray);
+}
+.review .slide .review_email {
+   text-align: center;
+   color: var(--green);
 }
 @media (max-width: 450px) {
    .review {

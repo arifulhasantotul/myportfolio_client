@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
+import "swiper/swiper-bundle.css";
 import "react-circular-progressbar/dist/styles.css";
 import Footer from "./components/FooterComponent/Footer";
 import Header from "./components/HeaderComponent/Header/Header";
